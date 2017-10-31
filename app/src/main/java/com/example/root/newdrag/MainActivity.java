@@ -107,10 +107,8 @@ public class MainActivity extends Activity implements OnDragListener, View.OnLon
             return false;
         }
 
-      return true;
+        return true;
     }
-
-
 
 
 }
