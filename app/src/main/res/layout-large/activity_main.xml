@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:tag="top_container"
+        >
+
+        <ImageView
+            android:id="@+id/apple"
+            android:tag="apple"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/apple"
+            />
+
+        <ImageView
+            android:id="@+id/bear"
+            android:tag="bear"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/bear"
+            />
+
+        <ImageView
+            android:id="@+id/plant"
+            android:tag="plant"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/plant"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:layout_weight=".5"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:tag="bottom_container"
+        >
+
+        <ImageView
+            android:id="@+id/bear_shadow"
+            android:tag="bear"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bear_shadow" />
+
+
+        <ImageView
+            android:id="@+id/plant_shadow"
+            android:tag="plant"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/plant_shadow" />
+
+
+
+
+        <ImageView
+            android:id="@+id/apple_shadow"
+            android:tag="apple"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/apple_shadow" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
